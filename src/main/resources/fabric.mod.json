@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "ysws_mcmod",
+  "version": "${version}",
+  "name": "ysws_mcmod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ysws_mcmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.devaforgestudios.ysws_mcmod.client.Ysws_mcmodClient"
+    ],
+    "main": [
+      "org.devaforgestudios.ysws_mcmod.Ysws_mcmod"
+    ]
+  },
+  "mixins": [
+    "ysws_mcmod.mixins.json",
+    {
+      "config": "ysws_mcmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
