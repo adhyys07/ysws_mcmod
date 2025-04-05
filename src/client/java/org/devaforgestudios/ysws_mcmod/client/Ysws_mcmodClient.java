@@ -7,6 +7,7 @@ public class Ysws_mcmodClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         println("Hello World");
-        println("Fuck You")
+        println("Fuck You");
+        printl
     }
 }
