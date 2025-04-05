@@ -8,6 +8,6 @@ public class Ysws_mcmodClient implements ClientModInitializer {
     public void onInitializeClient() {
         println("Hello World");
         println("Fuck You");
-        printl
+        println("chk2")
     }
 }
